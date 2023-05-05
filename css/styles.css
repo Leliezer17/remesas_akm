@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(0, 0, 0, 0.623);
+    display: flex;
+    padding: 10px;
+color: white;
+position: relative ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navegacion {
+background-color: rgba(0, 0, 0, 0.685); 
+display: flex;
+justify-content: space-between;
+border-radius: 15px;
+}
+.navegacion li:hover{
+    color: rgba(0, 0, 0, 0.315);
+}
+
+ul { 
+    
+    list-style: none;
+    display: flex;
+gap: 20px ;
+justify-content: middle;
+}
+
+ul  li {
+    padding: 40px 20px;
+}
+button {
+    margin: 30px;
+    border-radius: 10px;
+    width: 140px;
+    height: 35px;}
+main {
+    font-size: 2rem;
+    height: 100vh;
+}
+p {
+    font-size: 1rem;
+}
+h2 h3{
+    font-size: 1.5rem;
+}
