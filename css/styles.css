@@ -1,35 +1,39 @@
 body {
     background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+flex-direction: row;
+}
+
+    header{
     display: flex;
-    padding: 10px;
-color: white;
-position: relative ;
-}
-*{
+    height: auto;
+    width: 520px;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+text-align: center;
+
 }
+
 .navegacion {
 background-color: rgba(0, 0, 0, 0.685); 
-display: flex;
-justify-content: space-between;
 border-radius: 15px;
+width: auto;
+height: auto;
 }
+
 .navegacion li:hover{
     color: rgba(0, 0, 0, 0.315);
 }
 
 ul { 
     
-    list-style: none;
-    display: flex;
-gap: 20px ;
-justify-content: middle;
+list-style: none;
+display: flex;
+justify-content: space-between;
 }
 
 ul  li {
-    padding: 40px 20px;
+    padding: 30px 30px; 
 }
 button {
     margin: 30px;
